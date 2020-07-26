@@ -1,0 +1,29 @@
+.square{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    cursor: move;
+  }
+  .menu{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    z-index: 1;
+    background: lightgray;
+    bottom:-5px;
+    right:-5px;
+    border-radius: 5px;
+  }
+  .resize{
+    font-size: 15px;
+    font-weight: bold;
+    cursor: se-resize;
+  }
+  #container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: purple;
+    width:800px;
+    height: 600px;
+  }

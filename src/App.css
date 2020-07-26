@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  background-color: #f7f7f7;
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  user-select:none;
+}
