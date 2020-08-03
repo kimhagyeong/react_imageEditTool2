@@ -1,3 +1,19 @@
+# new_react_imageEditTool2
+#react #useAPI #react-resizable-rotatable-draggable #editTool #solve overload
+
+<br />
+npm API 중 react-resizable-rotatable-draggable 를 사용하여 좀 더 ux적으로 쾌적한 환경으로 editTool을 구성함.<br />
+그 외, 사소한 handling 문제를 해결하고 기능을 추가함. <br />
+또한 과부하로 인한 drag and resize 버퍼링 문제를 해결함 (상자를 클릭했을 때는 state변경하는 slide 기능을 막음으로 해결)
+
+<h4>npx create-react-app my-app</h4>
+<h4>cd my-app</h4>
+<h4>npm install axios</h4>
+<h4>npm install @material-ui/core</h4>
+<h4>npm install react-router-dom</h4>
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
