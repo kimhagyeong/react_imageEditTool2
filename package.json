@@ -8,13 +8,13 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
-    "colorette": "^1.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-rnd": "^10.1.10",
+    "react-resizable-rotatable-draggable": "^0.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
-    "rebound": "^0.1.0"
+    "react-scripts": "^3.4.1",
+    "rebound": "^0.1.0",
+    "styled-components": "^5.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,7 +38,8 @@
     ]
   },
   "devDependencies": {
-    "css-loader": "^3.6.0"
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {

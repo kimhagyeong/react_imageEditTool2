@@ -1,29 +1,52 @@
 .square{
+    box-sizing: border-box;
     position: absolute;
     width: 50px;
     height: 50px;
     cursor: move;
+    border:1.5px solid black;
   }
   .menu{
     position: absolute;
     width: 21px;
     height: 21px;
-    z-index: 1;
+    z-index: 80;
     background: lightgray;
-    bottom:-5px;
-    right:-5px;
     border-radius: 5px;
-  }
-  .resize{
     font-size: 15px;
     font-weight: bold;
+    
+  }
+  .resize{
+    bottom:-5px;
+    right:-5px;
     cursor: se-resize;
+  }
+  .close{
+    top:-7px;
+    left:-7px;
+    cursor: pointer;
   }
   #container{
     position: absolute;
     left: 0;
     top: 0;
-    background: purple;
+    background: rgba(128, 0, 128, 0.418);
     width:800px;
     height: 600px;
   }
+
+  .App div{
+    z-index: 50;
+    /* background: rgba(128, 0, 128, 0.418); */
+  }
+  /* .single-resizer{
+    background: rgba(128, 0, 128, 0.418);
+  } */
+  /* .fFutOK .resizable-handler{
+    background: none;
+  } */
+
+  .fFutOK {
+    border: none !important;
+}
